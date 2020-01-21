@@ -2,14 +2,20 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 import Lightbox from 'react-image-lightbox'
-import 'react-image-lightbox/style.css'
+
 import Row from './row'
 import Col from './column'
 import ImgWrapper from './img-wrapper'
 
-const prevIndex = state => (state.index - 1) % state.images.length
-const nextIndex = state =>
-  (state.index + state.images.length + 1) % state.images.length
+import 'react-image-lightbox/style.css'
+
+function prevIndex(state) {
+  return (state.index - 1) % state.images.length
+}
+
+function nextIndex(state) {
+  return (state.index + state.images.length + 1) % state.images.length
+}
 
 class Gallery extends Component {
   constructor(props) {
