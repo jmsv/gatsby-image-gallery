@@ -20,7 +20,7 @@ const Col = styled.div`
     }}
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     ${props => {
       return css`
         flex-basis: ${props.lg}%;
