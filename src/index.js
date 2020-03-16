@@ -73,6 +73,7 @@ class Gallery extends Component {
     const {
       colWidth = 100 / 3,
       mdColWidth = 100 / 4,
+      lgColWidth = 100 / 6,
       gutter = '0.25rem',
       imgClass = '',
     } = this.props
@@ -84,6 +85,7 @@ class Gallery extends Component {
               <Col
                 width={colWidth}
                 md={mdColWidth}
+                lg={lgColWidth}
                 key={index}
                 onClick={() => this.openLightBox(index)}
               >

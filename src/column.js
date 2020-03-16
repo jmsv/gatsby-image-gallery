@@ -19,6 +19,15 @@ const Col = styled.div`
       `
     }}
   }
+
+  @media (min-width: 768px) {
+    ${props => {
+      return css`
+        flex-basis: ${props.lg}%;
+        max-width: ${props.lg}%;
+      `
+    }}
+  }
 `
 
 Col.propTypes = {
