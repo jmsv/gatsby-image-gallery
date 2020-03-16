@@ -49,12 +49,6 @@ class Gallery extends Component {
         onCloseRequest={this.closeLightbox}
         onMovePrevRequest={this.movePrev}
         onMoveNextRequest={this.moveNext}
-        imageLoadErrorMessage="Could not load this image"
-        nextLabel="Next image"
-        prevLabel="Previous image"
-        zoomInLabel="Zoom in"
-        zoomOutLabel="Zoom out"
-        closeLabel="Close"
       />
     )
   }
