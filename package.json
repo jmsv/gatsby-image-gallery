@@ -1,6 +1,6 @@
 {
   "name": "jmsv-gatsby-image-gallery",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Very basic gallery grid based on gatsby-image.",
   "author": "browniebroke",
   "license": "MIT",
