@@ -49,6 +49,7 @@ class Gallery extends Component {
         onCloseRequest={this.closeLightbox}
         onMovePrevRequest={this.movePrev}
         onMoveNextRequest={this.moveNext}
+        imageLoadErrorMessage=""
       />
     )
   }
